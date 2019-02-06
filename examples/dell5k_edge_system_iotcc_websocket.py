@@ -30,6 +30,9 @@
 #  THE POSSIBILITY OF SUCH DAMAGE.                                            #
 # ----------------------------------------------------------------------------#
 
+import sys
+sys.path.append('../')
+
 from linux_metrics import cpu_stat, disk_stat, net_stat, mem_stat
 
 from liota.dccs.iotcc import IotControlCenter

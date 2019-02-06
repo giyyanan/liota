@@ -29,6 +29,8 @@
 #  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF     #
 #  THE POSSIBILITY OF SUCH DAMAGE.                                            #
 # ----------------------------------------------------------------------------#
+import sys
+sys.path.append('../')
 
 from linux_metrics import cpu_stat
 from liota.dcc_comms.socket_comms import SocketDccComms

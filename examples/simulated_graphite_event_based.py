@@ -30,6 +30,9 @@
 #  THE POSSIBILITY OF SUCH DAMAGE.                                            #
 # ----------------------------------------------------------------------------#
 
+import sys
+sys.path.append('../')
+
 import Queue
 import random
 import time

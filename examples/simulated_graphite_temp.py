@@ -30,6 +30,9 @@
 #  THE POSSIBILITY OF SUCH DAMAGE.                                            #
 # ----------------------------------------------------------------------------#
 
+import sys
+sys.path.append('../')
+
 from pint import UnitRegistry
 from temperusb import TemperHandler
 from liota.dcc_comms.socket_comms import SocketDccComms
