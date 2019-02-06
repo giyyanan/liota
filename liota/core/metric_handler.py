@@ -226,6 +226,8 @@ class CollectionThread(Thread):
         global send_queue
         while True:
             metric = collect_queue.get()
+            log.info(metric)
+            print(metric)
             log.debug("Collecting stats for metric: " + str(metric))
             try:
                 if not metric.flag_alive:
